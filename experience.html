@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <title>My Experiences</title>
+    <link rel="icon" type="png" href="images/logo.png" sizes="512x512">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="meteor-shower"></div>
+    <header></header>
+    <div class="content"></div>
+    <script src="script.js"></script>
+
+    <table bgcolor="#C0C0C0" align="center" width="1250" class="table">
+      <tr>
+        <td height="150" width="200" align="right" class="header">
+          <img src="images/logo.png" height="150" width="180">
+        </td>
+        <td align="center" colspan="7" height="150" width="500">
+          <h1><b>my professional experience</b></h1>
+          <p class="ex">Dont Let Negative People Make You Down</p>
+        </td>
+        <td height="150" width="200" align="left">
+          <img src="images/gif.gif" height="150" width="180">
+        </td>
+      </tr>
+      <tr>
+        <td height="50" width="100" align="center" colspan="2"></td>
+        <td height="50" width="100" align="center"><a href="index.html" class="link">Home</a></td>
+        <td height="50" width="100" align="center"><a href="hobby.html" class="link">Hobby</a></td>
+        <td height="50" width="100" align="center"><a href="education.html" class="link">Education</a></td>
+        <td height="50" width="100" align="center"><a href="experience.html" class="link active">Experience</a></td>
+        <td height="50" width="100" align="center"><a href="skill.html" class="link">Skill</a></td>
+        <td height="50" width="100" align="center" colspan="2"></td>
+      </tr>
+      <tr>
+        <table bgcolor="#DCDCDC" align="center" width="1250" class="table">
+          <tr>
+            <td height="500" width="50" class="rotate-text">
+              <a href="aboutme.html" class="link2"><b>About Me</b></a>
+            </td>
+            <td height="500" width="1000" colspan="7" align="center">
+              <p align="center">
+          <h2 class="h2">My Experience</h2>
+          <p>
+            I have a lot of great experiences in my life, but I want to highlight my internship experience during my diploma. 
+            This was a two-month internship during the semester break when I was in Semester 4. Below is an overview of my experience.
+          </p>
+          <div class="embed-container">
+            <h2 class="h2">Internship Highlights</h2>
+            <p>Here is a short video showcasing the results of my internship at Hospital Canselor Tuanku Muhriz.</p>
+            <iframe 
+              src="https://www.youtube.com/embed/PelZBqoDw1Q?si=bPC9enNcBJXdVEgu" 
+              allowfullscreen 
+              title="Internship Highlights">
+            </iframe>
+          </div>
+          <h2 class="h2">Volunteer Outreach Programs</h2>
+          <p>
+            I also participated in outreach programs as a volunteer within the Public Health Unit by Hospital Canselor Tuanku Muhriz.
+            These programs, part of the Inisiatif Komuniti Malaysia Madani Sihat (IKMAS), took place in three locations:
+          </p>
+          <ul class="ul">
+            <li class="li">
+              <div class="list-item-header">
+                <p><b>Kampung Orang Asli Pos Tenau, Perak:</b> Conducted health screenings & awareness campaigns.</p>
+                <button onclick="toggleImages('posTenau')">View Images</button>
+              </div>
+              <div class="image-container" id="posTenau">
+                <img src="images/36.png" alt="Pos Tenau Image 1" onclick="openModal(this)">
+                <img src="images/37.png" alt="Pos Tenau Image 2" onclick="openModal(this)">
+                <img src="images/38.png" alt="Pos Tenau Image 3" onclick="openModal(this)">
+              </div>
+            </li>
+            <li class="li">
+              <div class="list-item-header">
+                <p><b>Felda Batang Padang Besout, Perak:</b> Engaged in community health education sessions.</p>
+                <button onclick="toggleImages('besout')">View Images</button>
+              </div>
+              <div class="image-container" id="besout">
+                <img src="images/39.png" alt="Besout Image 1" onclick="openModal(this)">
+                <img src="images/40.png" alt="Besout Image 2" onclick="openModal(this)">
+                <img src="images/41.png" alt="Besout Image 3" onclick="openModal(this)">
+              </div>
+            </li>
+            <li class="li">
+              <div class="list-item-header">
+                <p><b>Felda Sungai Behrang, Perak:</b> Assisted in public health surveys & health checkups.</p>
+                <button onclick="toggleImages('behrang')">View Images</button>
+              </div>
+              <div class="image-container" id="behrang">
+                <img src="images/42.png" alt="Behrang Image 1" onclick="openModal(this)">
+                <img src="images/43.png" alt="Behrang Image 2" onclick="openModal(this)">
+                <img src="images/44.png" alt="Behrang Image 3" onclick="openModal(this)">
+              </div>
+            </li>
+          </ul>
+
+        </p>
+            </td>
+            <td height="500" width="50" class="rotate-text">
+              <a href="contact.html" class="link2"><b>Contact</b></a>
+            </td>
+          </tr>
+        </table>
+		<div id="modal" class="modal" onclick="closeModal()">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <img id="modal-img" class="modal-content" src="">
+  </div>
+      </tr>
+    </table>
+
+    <table bgcolor="#C0C0C0" align="center" width="1250" border="0" class="table">
+      <tr>
+        <td height="50" width="50">
+          <img src="images/logo.png" height="50" width="50">
+        </td>
+        <td height="50" width="100" align="left" colspan="2">
+          &copy; 2024 Zahid Hanafi Enterprise
+        </td>
+        <td height="50" width="100" align="right">
+          <marquee direction="right" width="300">Let’s connect! Follow me here:&#128073;</marquee>
+        </td>
+        <td height="50" width="50" class="img" align="center">
+          <a href="https://www.tiktok.com/@pandagaming._____" target="blank">
+            <img src="images/1.png" height="35" width="35">
+          </a>
+        </td>
+        <td height="50" width="50" class="img" align="center">
+          <a href="https://www.instagram.com/zahidhnfi.__/" target="blank">
+            <img src="images/2.png" height="45" width="45">
+          </a>
+        </td>
+        <td height="50" width="50" class="img" align="center">
+          <a href="https://www.linkedin.com/in/zahid-hanafi-33249730b/" target="blank">
+            <img src="images/3.png" height="30" width="30">
+          </a>
+        </td>
+        <td height="50" width="50">
+          <a href="javascript:void(0);" class="button" onclick="window.scrollTo(0, 0);">Up</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

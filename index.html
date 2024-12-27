@@ -1,0 +1,124 @@
+<html> 
+  <head>
+    <title>Zahid's Universe</title>
+    <link rel="icon" type="png" href="images/logo.png" sizes="512x512">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+ 
+ <body>
+    <div id="meteor-shower"></div>
+    <header></header>
+    <div class="content"></div>
+
+    <script src="script.js"></script>
+
+    <table bgcolor="#C0C0C0" align="center" width="1250" class="table">
+      <tr>
+        <td height="150" width="200" align="right" class="header">
+          <img src="images/logo.png" height="150" width="180">
+        </td>
+        <td align="center" colspan="7" height="150" width="500">
+          <h1><b>Welcome to My Website</b></h1>
+          <p class="ex">Don't Let Negative People Make You Down</p>
+        </td>
+        <td height="150" width="200" align="left">
+          <img src="images/gif.gif" height="150" width="180">
+        </td>
+      </tr>
+      <tr>
+        <td height="50" width="100" align="center" colspan="2"></td>
+        <td height="50" width="100" align="center">
+          <a href="index.html" class="link active">Home</a>
+        </td>
+        <td height="50" width="100" align="center">
+          <a href="hobby.html" class="link">Hobby</a>
+        </td>
+        <td height="50" width="100" align="center">
+          <a href="education.html" class="link">Education</a>
+        </td>
+        <td height="50" width="100" align="center">
+          <a href="experience.html" class="link">Experience</a>
+        </td>
+        <td height="50" width="100" align="center">
+          <a href="skill.html" class="link">Skill</a>
+        </td>
+        <td height="50" width="100" align="center" colspan="2"></td>
+      </tr>
+      <tr>
+        <table bgcolor="#DCDCDC"  width="1250" class="table">
+          <tr>
+            <td height="500" width="50" class="rotate-text">
+              <a href="aboutme.html" class="link2"><b>About Me</b></a>
+            </td>
+            <td height="500" width="1000" colspan="7" align="center">
+              <div style="display: flex; align-items: center; justify-content: center; text-align: left;">
+                <div style="display: flex; justify-content: flex-start; align-items: flex-start;">
+                  <img src="images/4.png" alt="Zahid's Picture" width="400" height="470" class="animated-image" style="border-radius: 50px; margin-top: -10px; object-fit: contain;">
+                </div>
+                <div style="flex: 2;">
+                  <h2 style="text-align: left; text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);animation: fadeIn 2s ease-out;">Explore Zahid's Universe</h2>
+                  <p style="animation: fadeIn 2s ease-out;">Welcome to my corner of the web! I invite you to dive deeper into my journey, achievements, and future goals.</p>
+
+                  <div class="highlight">
+                    <h3 style="text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);animation: fadeIn 2s ease-out;">What Makes My Journey Unique?</h3>
+                    <p style="animation: fadeIn 2s ease-out;">I've always been passionate about learning new skills, exploring the world of technology, and contributing to positive change in society. Through my education and personal projects, I've gained valuable experience in web development, sustainable development, and more.</p>
+                  </div>                   
+                  <div style="margin-top: 20px;">
+                    <button onclick="myFunction()" class="link">Click Me</button>
+                    <p id="demo"></p>
+                  </div>
+
+                  <script>
+                    function myFunction() {
+                      let text;
+                      let person = prompt("Please Enter Your Name:", "Zahid Hanafi");
+                      if (person == null || person == "") {
+                        text = "";
+                      } else {
+                        text = "Hello " + person + "! How’s life treating you?";
+                      }
+                      document.getElementById("demo").innerHTML = text;
+                    }
+                  </script>
+
+                </div>
+              </div>
+            </td>
+            <td height="500" width="50" class="rotate-text">
+              <a href="contact.html" class="link2"><b>Contact</b></a>
+            </td>
+          </tr>
+        </table>
+      </tr>
+    </table>
+
+    <table bgcolor="#C0C0C0" align="center" width="1250" class="table">
+      <tr>
+        <td height="50" width="50"><img src="images/logo.png" height="50" width="50"></td>
+        <td height="50" width="100" align="left" colspan="2"> &copy; 2024 Zahid Hanafi Enterprise</td>
+        <td height="50" width="100" align="right">
+          <marquee direction="right" width="300">Let’s connect! Follow me here:&#128073;</marquee>
+        </td>
+        <td height="50" width="50" class="img" align="center">
+          <a href="https://www.tiktok.com/@pandagaming._____" target="blank">
+            <img src="images/1.png" height="35" width="35" >
+          </a>
+        </td>
+        <td height="50" width="50" class="img" align="center">
+          <a href="https://www.instagram.com/zahidhnfi.__/" target="blank">
+            <img src="images/2.png" height="45" width="45" >
+          </a>
+        </td>
+        <td height="50" width="50" class="img" align="center">
+          <a href="https://www.linkedin.com/in/zahid-hanafi-33249730b/" target="blank">
+            <img src="images/3.png" height="30" width="30" >
+          </a>
+        </td>
+        <td height="50" width="50">
+          <a href="javascript:void(0);" class="button" onclick="window.scrollTo(0, 0);">Up</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
